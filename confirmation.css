@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: lightgray;
+}
+
+.navbar {
+    background: midnightblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.ticket {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed midnightblue;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: midnightblue;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}

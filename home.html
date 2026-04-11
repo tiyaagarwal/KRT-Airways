@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css" />
+    <script defer src="home.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <h2>✈️ KRT Airways</h2>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">My Bookings</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+        <a href="index.html">Logout</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1>Book Your Dream Journey with KRT Airlines</h1>
+      <p>Safe • Fast • Affordable</p>
+    </div>
+
+    <div class="search-box">
+      <h2>Search Flights</h2>
+
+      <label>From</label>
+      <select id="from">
+        <option value="">Select</option>
+        <option>Chennai</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+      </select>
+
+      <label>To</label>
+      <select id="to">
+        <option value="">Select</option>
+        <option>Chennai</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+      </select>
+
+      <label>Date</label>
+      <input type="date" id="date" />
+
+      <label><b><u>Passengers</u></b></label>
+
+      <div class="passenger-box">
+        <span>Adults:</span>
+        <button onclick="decAdult()">-</button>
+        <span id="adult">1</span>
+        <button onclick="incAdult()">+</button>
+      </div>
+
+      <div class="passenger-box">
+        <span>Children:</span>
+        <button onclick="decChild()">-</button>
+        <span id="child">0</span>
+        <button onclick="incChild()">+</button>
+      </div>
+      <label>Class</label>
+      <select id="class">
+        <option>Economy</option>
+        <option>Business</option>
+        <option>First Class</option>
+      </select>
+
+      <button onclick="searchFlights()">Search Flights ✈️</button>
+    </div>
+
+    <div class="extra">
+      <h2>Why Choose Us?</h2>
+      <p>✔ Cheap Prices</p>
+      <p>✔ Fast Booking</p>
+      <p>✔ 24/7 Support</p>
+    </div>
+
+    <div class="footer">
+      <p>Contact: krtairline@gmail.com | +91 9876543210</p>
+    </div>
+  </body>
+</html>

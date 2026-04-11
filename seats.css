@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+.navbar {
+    background: midnightblue;
+    color: white;
+    padding: 15px;
+}
+
+.navbar h2 {
+    display: inline;
+}
+
+.navbar div {
+    float: right;
+}
+
+.legend {
+    margin: 15px;
+}
+
+.box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+.available { background: lightgray; }
+.selected { background: green; }
+.booked { background: red; }
+
+.seat-container {
+    width: 300px;
+    margin: auto;
+}
+
+.row {
+    margin: 5px 0;
+}
+
+.seat {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    line-height: 35px;
+    font-size: 12px;
+    background: lightgray;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.aisle {
+    display: inline-block;
+    width: 20px;
+}
+
+.selected {
+    background: green;
+    color: white;
+}
+
+.booked {
+    background: red;
+    color: white;
+    cursor: not-allowed;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: midnightblue;
+    color: white;
+    border: none;
+}

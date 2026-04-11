@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: darkslategray;
+}
+
+.container {
+    width: 900px;
+    height: 550px;
+    background: white;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+
+.left-panel {
+    width: 50%;
+    height: 550px;
+    float: left;
+    background: midnightblue;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    box-sizing: border-box; 
+}
+
+.right-panel {
+    width: 50%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: midnightblue;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background: midnightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+.extras {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.extras label {
+    float: left;
+}
+
+.extras span {
+    float: right;
+}
+
+.switch{
+    margin-top: 10px;
+}
+
+.switch span {
+    color: blue;
+    cursor: pointer;
+}
+
+.rememberMe{
+    margin-bottom:15px;
+    margin-top:-5px;
+}
+
+.register{
+    margin-top: -5px;
+}

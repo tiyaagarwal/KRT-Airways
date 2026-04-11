@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    background: midnightblue;
+    color: white;
+    padding: 15px;
+}
+
+.navbar h2 {
+    display: inline;
+}
+
+.navbar div {
+    float: right;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    background: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.search-box {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.search-box label {
+    display: block;
+    margin-top: 10px;
+}
+
+.search-box select,
+.search-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.passenger-box {
+    margin-top: 10px;
+}
+
+.passenger-box span:first-child {
+    display: inline-block;
+    width: 80px;   
+}
+
+.passenger-box button {
+    margin: 0 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: midnightblue;
+    color: white;
+    border: none;
+}
+
+.extra {
+    text-align: center;
+    padding: 20px;
+    background: lightgray;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: midnightblue;
+    color: white;
+}
