@@ -1,5 +1,7 @@
 # ✈️ KRT Airways
 
+**[Try it live →](https://tiyaagarwal.github.io/KRT-Airways/)**
+
 **KRT Airways** is a fully functional airline ticket booking system built using HTML, CSS, and JavaScript.
 This project simulates the complete flight booking process—from login to seat selection and payment.
 
@@ -72,12 +74,6 @@ git clone https://github.com/tiyaagarwal/KRT-Airways.git
 
 ---
 
-## 📸 Screenshots
-
-*Add screenshots here (Home, Flights, Seats, Payment, Confirmation pages)*
-
----
-
 ## 📈 Future Enhancements
 
 * 🌐 Backend integration (Node.js / MongoDB)
@@ -97,4 +93,4 @@ BTech CSE Student
 
 ## ⭐ Support
 
-If you like this project, don’t forget to ⭐ the repository!
+If you like this project, don't forget to ⭐ the repository!
