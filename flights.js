@@ -61,7 +61,7 @@ for (let i = 0; i < allFlights.length; i++) {
 
     found = true;
 
-    let total = f.price * adult;
+    let total = f.price * (adult + child);
 
     let div = document.createElement("div");
     div.className = "card";
