@@ -33,14 +33,13 @@ This project simulates the complete flight booking process—from login to seat 
 ```
 KRT-Airways/
 │
-├── index.html
+├── index.html / login.css / login.js       (login page)
 ├── home.html / home.css / home.js
 ├── flights.html / flights.css / flights.js
 ├── passenger.html / passenger.css / passenger.js
 ├── seats.html / seats.css / seats.js
 ├── payment.html / payment.css / payment.js
 ├── confirmation.html / confirmation.css / confirmation.js
-├── login.html / login.css / login.js
 ├── signup.html / signup.js
 ```
 
