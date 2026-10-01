@@ -2,6 +2,12 @@ let cardRegex = /^\d{16}$/;
 let cvvRegex = /^\d{3}$/;
 let nameRegex = /^[A-Za-z ]{2,50}$/;
 
+const currentMonth = new Date().toISOString().slice(0, 7);
+
+window.onload = function () {
+    document.getElementById("expiry").setAttribute("min", currentMonth);
+};
+
 document.getElementById("card").addEventListener("input", function(e) {
 
     let value = e.target.value.replace(/\s/g, ""); 
@@ -34,6 +40,11 @@ function payNow() {
 
     if (expiry === "") {
         alert("Select expiry date");
+        return;
+    }
+
+    if (expiry < currentMonth) {
+        alert("Card has expired");
         return;
     }
 
