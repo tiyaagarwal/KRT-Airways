@@ -2,6 +2,7 @@
 let adult = 1;
 let child = 0;
 
+const MAX_PASSENGERS = 28;
 
 const today = new Date().toISOString().split("T")[0];
 
@@ -11,6 +12,10 @@ window.onload = function () {
 };
 
 function incAdult() {
+    if (adult + child >= MAX_PASSENGERS) {
+        alert("Only " + MAX_PASSENGERS + " seats available on this flight");
+        return;
+    }
     adult++;
     document.getElementById("adult").innerText = adult;
 }
@@ -23,6 +28,10 @@ function decAdult() {
 }
 
 function incChild() {
+    if (adult + child >= MAX_PASSENGERS) {
+        alert("Only " + MAX_PASSENGERS + " seats available on this flight");
+        return;
+    }
     child++;
     document.getElementById("child").innerText = child;
 }
